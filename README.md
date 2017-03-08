@@ -17,4 +17,4 @@ Or perhaps you should do things in a sequence:
 3. Now realise that the actual number values don't matter.
 
 ## Summary
-Writing a simple markdown document is really, really easy!
+Writing a simple markdown document is really, really easy! (But beware forgetting blank lines before, particularly, enumerated list items!)

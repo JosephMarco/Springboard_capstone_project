@@ -1,4 +1,4 @@
-# Springboard_capstone_project
+# Springboard capstone project ideas
 ## Introduction
 Example muckings about for this and that
 
@@ -12,7 +12,7 @@ And I can make bulleted lists as well:
 Or perhaps you should do things in a sequence:
 1. You do this first
 2. You do this second.
-1. Now realise that the actual number values don't matter.
+3. Now realise that the actual number values don't matter.
 
 ## Summary
 Writing a simple markdown document is really, really easy!

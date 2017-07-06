@@ -1,20 +1,19 @@
 # Springboard capstone project ideas
 ## Introduction
-Example muckings about for this and that
+An intro to my project proposal Ideas for Springboard capstone project.
 
-## Another heading
-Notice how two hash marks (pounds to Americans) make a level 2 heading.
-I can also make links, for example to my main profile as [here](https://github.com/gtmaskall).
-And I can make bulleted lists as well:
+## Idea 1
+http://wemakeitsafer.com/
+*my hopes with this idea is to analyze product recall information, correlate it across industries, and identify industries more prone to recall and why
 
-* here is a key point
-* here is another key point
 
-Or perhaps you should do things in a sequence:
+## Idea 2
+https://householdproducts.nlm.nih.gov/
+*with this option, I would hope to look at health and safety information regarding common household products, and identify or predict common treatment recommendations based on similar health affects with similar ingredients
 
-1. You do this first
-2. You do this second.
-3. Now realise that the actual number values don't matter.
+## Idea 3
+https://www.nlm.nih.gov/databases/download/data_distrib_main.html
+*I would like to take data of known side effects (toxicology) and predict when new products contain certain ingredients, some or all of the side effects that may result, and how likely they are to result based off existing complaints if possible
 
 ## Summary
-Writing a simple markdown document is really, really easy! (But beware forgetting blank lines before, particularly, enumerated list items!)
+I would like feedback for which option seems most effective.

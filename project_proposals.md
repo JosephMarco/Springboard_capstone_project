@@ -9,6 +9,7 @@ http://wemakeitsafer.com/
 * This topic is interesting to me because I currently am employed in the healtchare industry, and recalls not only affect business growth, but also eliminate brand loyalty from consumers. By being able to figure out what might be causing recalls, and how often they are cause in a particular sector or area of the business, we may be able to proactively think ahead when we are at risk of a recall. 
 * This would potentially touch NLP (Natural Language Processing) since voice of the customer data will be handled in text and not numbers, making it more difficult to achieve this since NLP is outside of the data science foundations course.
 * Worried about accessing this data, as it does not look easy to get to, or download.
+* The value to a potential business group here is the fact that they would be likely to keep an eye on "high-risk potential recall areas" and plan accordingly, adhere to safety standards etc.
 
 
 ## Idea 2 (product backorder and sales impact predictions)
@@ -17,6 +18,7 @@ https://www.kaggle.com/tiredgeek/predict-bo-trial
 * This data set comes from kaggle, I added a spin on it and included the RANDOM() function in excel for random sales, and random cost to make figures to help add to the wealth of the dataset.
 * I can add additional random frequency for more insightful predictions, so as not to use just the stock standard data set
 * Bonus points, which SKUS have the largest backorder predictions, how can i build a long term plan to avoid this? Is there a way to reduce lead time? New manufacturing process? etc..
+* Business value here to a business group would be to determine risk of backorders, plan for avoidance, and if impossible, focus leg work on high profit areas to ensure no disruption in customer purchasing process for high demand/high sales products.
 
 ## Idea 3 (predict treatment recommendations for products containing the same ingredients)
 https://householdproducts.nlm.nih.gov/ 
@@ -24,6 +26,7 @@ https://householdproducts.nlm.nih.gov/
 * As a consumer, if i call in about a product, a machine should be able to predict treatment based off the ingredients of said product
 * As an R&D formulator, when i am compiling a new formula, I can communicate to the labeling department or customer service call centers potential treatment options based on my compounds if adverse events do come up
 * This data is not easy to get to, and requires some NLP expertise which is not a part of this course. The obstacle here is relying on someone who knows NLP in and out to crawl health adverse event text, and predict treatment options.
+* The business value of this option would be to proactively use machine learning to predict treatment based off similar ingredients to help streamline guidance to customers who face side affects with products.
 
 ## Summary
 I would like feedback for which option seems most effective.

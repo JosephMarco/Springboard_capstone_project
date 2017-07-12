@@ -15,11 +15,15 @@ http://wemakeitsafer.com/
 https://www.kaggle.com/tiredgeek/predict-bo-trial
 * This is most correlated to my current role. Product backorders == loss in business growth and thus loss in dollars contributed to a company. By being able to predict what SKUs (products) are at risk of being placed on backorder, and what type of volume in sales we would be losing, we as a company could better understand and allocate resources. If i have two products that are predicted to go on backorder, i can plan to replenish my stock to prepare and avoid this. If backorder issue is not able to be avoided, I would like to at least be able to allocate resources to the product(s) which drive the most sales, while allowing other products to be placed on backorder, thus avoiding larger loss in revenue.
 * This data set comes from kaggle, I added a spin on it and included the RANDOM() function in excel for random sales, and random cost to make figures to help add to the wealth of the dataset.
+* I can add additional random frequency for more insightful predictions, so as not to use just the stock standard data set
 * Bonus points, which SKUS have the largest backorder predictions, how can i build a long term plan to avoid this? Is there a way to reduce lead time? New manufacturing process? etc..
 
-## Idea 3
-https://householdproducts.nlm.nih.gov/
+## Idea 3 (predict treatment recommendations for products containing the same ingredients)
+https://householdproducts.nlm.nih.gov/ 
 * with this option, I would hope to look at health and safety information regarding common household products, and identify or predict common treatment recommendations based on similar health affects with similar ingredients
+* As a consumer, if i call in about a product, a machine should be able to predict treatment based off the ingredients of said product
+* As an R&D formulator, when i am compiling a new formula, I can communicate to the labeling department or customer service call centers potential treatment options based on my compounds if adverse events do come up
+* This data is not easy to get to, and requires some NLP expertise which is not a part of this course. The obstacle here is relying on someone who knows NLP in and out to crawl health adverse event text, and predict treatment options.
 
 ## Summary
 I would like feedback for which option seems most effective.

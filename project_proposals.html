@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-1.1/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Nicks Website</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="about.html">About Me</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<div id="springboard-capstone-project-ideas" class="section level1">
+<h1>Springboard capstone project ideas</h1>
+<div id="introduction" class="section level2">
+<h2>Introduction</h2>
+<p>An intro to my project proposal Ideas for Springboard capstone project.</p>
+</div>
+<div id="idea-1-predictions-and-assumptions-around-product-recalls" class="section level2">
+<h2>Idea 1 (predictions and assumptions around product recalls)</h2>
+<p><a href="http://wemakeitsafer.com/" class="uri">http://wemakeitsafer.com/</a> * my hopes with this idea is to analyze product recall information, correlate it across industries, and identify industries more prone to recall and why * Can we predict which companies are likely to have product recalls based off legacy historical amount of recalls? * This topic is interesting to me because I currently am employed in the healtchare industry, and recalls not only affect business growth, but also eliminate brand loyalty from consumers. By being able to figure out what might be causing recalls, and how often they are cause in a particular sector or area of the business, we may be able to proactively think ahead when we are at risk of a recall. * This would potentially touch NLP (Natural Language Processing) since voice of the customer data will be handled in text and not numbers, making it more difficult to achieve this since NLP is outside of the data science foundations course. * Worried about accessing this data, as it does not look easy to get to, or download. * The value to a potential business group here is the fact that they would be likely to keep an eye on “high-risk potential recall areas” and plan accordingly, adhere to safety standards etc.</p>
+</div>
+<div id="idea-2-product-backorder-and-sales-impact-predictions" class="section level2">
+<h2>Idea 2 (product backorder and sales impact predictions)</h2>
+<p><a href="https://www.kaggle.com/tiredgeek/predict-bo-trial" class="uri">https://www.kaggle.com/tiredgeek/predict-bo-trial</a> * This is most correlated to my current role. Product backorders == loss in business growth and thus loss in dollars contributed to a company. By being able to predict what SKUs (products) are at risk of being placed on backorder, and what type of volume in sales we would be losing, we as a company could better understand and allocate resources. If i have two products that are predicted to go on backorder, i can plan to replenish my stock to prepare and avoid this. If backorder issue is not able to be avoided, I would like to at least be able to allocate resources to the product(s) which drive the most sales, while allowing other products to be placed on backorder, thus avoiding larger loss in revenue. * This data set comes from kaggle, I added a spin on it and included the RANDOM() function in excel for random sales, and random cost to make figures to help add to the wealth of the dataset. * I can add additional random frequency for more insightful predictions, so as not to use just the stock standard data set * Bonus points, which SKUS have the largest backorder predictions, how can i build a long term plan to avoid this? Is there a way to reduce lead time? New manufacturing process? etc.. * Business value here to a business group would be to determine risk of backorders, plan for avoidance, and if impossible, focus leg work on high profit areas to ensure no disruption in customer purchasing process for high demand/high sales products.</p>
+</div>
+<div id="idea-3-predict-treatment-recommendations-for-products-containing-the-same-ingredients" class="section level2">
+<h2>Idea 3 (predict treatment recommendations for products containing the same ingredients)</h2>
+<p><a href="https://householdproducts.nlm.nih.gov/" class="uri">https://householdproducts.nlm.nih.gov/</a> * with this option, I would hope to look at health and safety information regarding common household products, and identify or predict common treatment recommendations based on similar health affects with similar ingredients * As a consumer, if i call in about a product, a machine should be able to predict treatment based off the ingredients of said product * As an R&amp;D formulator, when i am compiling a new formula, I can communicate to the labeling department or customer service call centers potential treatment options based on my compounds if adverse events do come up * This data is not easy to get to, and requires some NLP expertise which is not a part of this course. The obstacle here is relying on someone who knows NLP in and out to crawl health adverse event text, and predict treatment options. * The business value of this option would be to proactively use machine learning to predict treatment based off similar ingredients to help streamline guidance to customers who face side affects with products.</p>
+</div>
+<div id="summary" class="section level2">
+<h2>Summary</h2>
+<p>I would like feedback for which option seems most effective.</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
